@@ -1,0 +1,66 @@
+body {
+    background-image: url(images/background.jpeg);
+    background-repeat: repeat;
+}
+
+@font-face {
+    src: url(fonts/Jacquard12-Regular.ttf);
+    font-family: jac12;
+}
+
+@font-face {
+    src: url(fonts/Freeman-Regular.ttf);
+    font-family: freeman;
+}
+
+h1 {
+    color: rgb(235, 35, 235);
+    text-transform: lowercase;
+    letter-spacing: 0.5ch;
+    word-spacing: 1ch;
+    text-decoration: underline;
+    font-family: jac12;
+}
+
+h2 {
+    color: cyan;
+    font-family: freeman;
+}
+
+a h2 {
+    color: rgb(50, 130, 204);
+}
+
+h3 {
+    color: cyan;
+}
+
+h4 {
+    color: rgb(50, 130, 204);
+}
+
+a h3 {
+    color: rgb(235, 35, 235);
+}
+
+a h5 {
+    color: lightgrey;
+}
+
+p {
+    color: cyan;
+    font-size: 20px;
+}
+
+p a {
+    color: pink;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+  
